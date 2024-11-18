@@ -1,0 +1,89 @@
+    .nav {
+        display: flex;
+        justify-content: end;
+        margin-right: 40px;
+        height: 5vh;
+        padding-bottom: 3vh;
+    }
+
+    .nav ul a {
+        text-decoration: none;
+    }
+
+    /* =================== MAIN PAGE =================== */
+    firstpage {
+        position: relative;
+        display: flex;
+        height: 92vh;
+    }
+
+    maintext {
+        margin-left: 10vw;
+        margin-top: 22vh;
+    }
+
+
+    maintext h1 {
+        color: red;
+        width: 30vw;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    maintext h1 a {
+        color: blue;
+        font-size: 55px;
+    }
+
+    maintext button {
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #800080bd;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    maintext button:hover {
+        background-color: #800080;
+    }
+
+    imagelogo svg {
+        position: relative;
+        top: 25vh;
+        left: 20vw;
+    }
+
+    waves svg {
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    /* ====================== SecondPage ======================= */
+    secondpages {
+        width: auto;
+        height: 100vh;
+        background-color: red;
+    }
+
+    .newbox {
+        width: auto;
+        height: 100vh;
+    }
+
+    .boxslider {
+        width: auto;
+        height: 60vh;
+        position: relative;
+        top: 20%;
+    }
+
+    secondpages svg {
+        position: absolute;
+        margin-top: -10px;
+    }

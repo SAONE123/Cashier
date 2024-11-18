@@ -1,0 +1,9 @@
+.labeldashboard {
+    text-align: center;
+    padding: 2vh;
+}
+
+canvas {
+    width: 100% !important;
+    height: 80vh !important;
+}

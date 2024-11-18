@@ -1,0 +1,18 @@
+.maincontainer {
+    display: flex;
+}
+
+.mainplayground {
+    width: 100vw;
+    height: 92vh;
+    margin: 0;
+    padding: 0;
+}
+
+.itemplayground {
+    width: 100vw;
+    height: 92vh;
+    margin: 0;
+    padding: 0;
+
+}

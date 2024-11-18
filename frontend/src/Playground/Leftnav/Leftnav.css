@@ -1,0 +1,28 @@
+leftnav ul {
+    background-color: #ff00e58a;
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+    height: 92vh;
+}
+
+leftnav ul li {
+    display: grid;
+    padding: 20px
+}
+
+leftnav ul li a {
+    text-decoration: none;
+    font-size: 130%;
+    padding: 31px 40%;
+    z-index: 1;
+}
+
+svgcontainer {
+    position: absolute;
+    display: grid;
+}
+
+.svgcontent {
+    padding: 13px;
+}

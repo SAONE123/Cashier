@@ -1,0 +1,99 @@
+.cardcontainer,
+.Quantity {
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+}
+
+.images img {
+    width: 160px;
+    height: 180px;
+    padding: 0 20px;
+}
+
+.quantity,
+.labelProduct {
+    text-align: center;
+    height: 20px;
+}
+
+
+
+.pricecontainer {
+    padding: 0 20px;
+    display: flex;
+}
+
+price {
+    width: 50%;
+    padding: 0 18px;
+    text-align: center;
+}
+
+.cons {
+    margin: 45px 5vw;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 35px;
+    left: 20vw;
+    max-height: 85vh;
+    overflow: auto;
+}
+
+.navitems {
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0.1px;
+    background: red;
+    height: 40px;
+}
+
+.search {
+    width: 40%;
+    border-radius: 20px;
+    transition: 0.5s ease-out;
+    border: 1px transparent;
+}
+
+.search:focus {
+    width: 60%;
+    transition: 0.5s ease-in
+}
+
+.labelProduct {
+    padding: 3px;
+}
+
+.pricecontainer {
+    padding: 5px;
+}
+
+.pricecontainer button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.Quantity {
+    position: absolute;
+    background: rgb(54, 7, 7);
+    text-align: center;
+    line-height: 210px;
+    height: 210px;
+    font-size: 30px;
+    opacity: 0;
+    font-weight: bolder;
+    color: white;
+    /* Initially hidden */
+    transition: opacity 0.3s;
+    /* Smooth transition */
+}
+
+.Quantity.visible {
+    opacity: 0.6;
+    /* Visible when a class is added */
+}

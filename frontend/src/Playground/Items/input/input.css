@@ -1,0 +1,20 @@
+.container {
+    height: max-content;
+    width: 20vw;
+    background-color: red;
+}
+
+.contain {
+    position: relative;
+    display: grid;
+}
+
+input {
+    height: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menus {
+    text-align: center;
+}

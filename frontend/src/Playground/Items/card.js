@@ -39,6 +39,11 @@ function Cards() {
     <div className="cons">
       <div className="navitems">
         <input type="text" className="search" placeholder="Search Content" />
+        <div className="button">
+          <button>+</button>
+          <button>-</button>
+          <button>Edit</button>
+        </div>
       </div>
       {items.map((e) => (
         <div key={e._id} className="cardcontainer">

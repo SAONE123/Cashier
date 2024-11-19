@@ -13,13 +13,10 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose
-  .connect(
-    "mongodb+srv://infoan78:eGED4rntWO2g1DYo@cashier.9fcy3.mongodb.net/?retryWrites=true&w=majority&appName=Cashier",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    }
-  )
+  .connect("///", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then(() => {
     console.log("Connected to MongoDB");
   })

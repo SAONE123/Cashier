@@ -1,20 +1,28 @@
 .container {
     height: max-content;
-    width: 20vw;
+    width: max-content;
     background-color: red;
 }
 
-.contain {
-    position: relative;
-    display: grid;
-}
 
-input {
+.inputForm {
     height: 20px;
     text-align: center;
     margin: 10px 0;
 }
 
-.menus {
+.Menus {
+    width: max-content;
+    text-align: center;
+    display: grid;
+    padding: 20px;
+}
+
+.select {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.input {
     text-align: center;
 }
